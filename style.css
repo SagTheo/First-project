@@ -1,0 +1,22 @@
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 30%;
+    height: 70vh;
+    border: 1px black solid;
+    box-shadow: 5px 5px 5px gainsboro;
+    border-radius: 15px;
+    background-color: rgb(228, 225, 225);
+}
+
+button, input {
+    border-radius: 5px;
+    padding: 5px;
+}
+
+button {
+   margin-top: 5px; 
+}
