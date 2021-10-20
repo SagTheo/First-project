@@ -20,3 +20,8 @@ button, input {
 button {
    margin-top: 5px; 
 }
+
+.newTodo {
+    display: flex;
+    flex-direction: row;
+}
