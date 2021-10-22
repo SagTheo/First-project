@@ -2,26 +2,33 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+    background-color: beige;
+    color: beige;
+}
+
 .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: auto;
-    width: 30%;
-    height: 70vh;
+    width: 40%;
+    height: 85vh;
     border: 1px black solid;
-    box-shadow: 5px 5px 5px gainsboro;
+    box-shadow: 8px 8px 8px rgb(199, 194, 194);
     border-radius: 15px;
-    background-color: rgb(228, 225, 225);
+    background-color: #C8800B;
 }
 
 h1 {
     margin-bottom: 10px;
+    font-size: 2.5em;
 }
 
 h2 {
     font-size: smaller;
+    margin-top: 0px;
 }
 
 button, input {
@@ -32,22 +39,32 @@ button, input {
 
 button {
    margin-bottom: 5px;
+   background-color: #925D08;
+   color: beige;
+}
+
+button:disabled {
+    background-color: hsl(37, 95%, 40%);
 }
 
 input, #todos {
     width: 70%;
 }
 
+input {
+    color: black;
+}
+
 .newTodo {
     display: flex;
     justify-content: space-between;
-    width: 19em;
+    width: 95%;
     padding: 5px;
     border-radius: 5px;
 }
 
 .newTodo:hover {
-    background-color: #f0ffff;
+    background-color: #925D08;
     align-items: center;
 }
 
@@ -59,8 +76,27 @@ input, #todos {
 }
 
 .deleteTodo:hover {
-    background-color: gainsboro;
+    background-color: #C8800B;
     font-weight: bold;
 }
 
-/* !! Fix the responsiveness of the app !! */
+
+@media (max-width: 700px) {
+    .container {
+        width: 70%;
+    }
+
+    button {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 1000px) and (min-width: 700px) {
+    .container {
+        width: 50%;
+    }
+
+    button {
+        margin-bottom: 10px;
+    }
+}

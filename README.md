@@ -13,3 +13,4 @@ Difficulties encountered:
 -getting the items to stay on the list after reloading the page
 
 -making the app responsive
+    -sorted out: added media queries and played around with he width and height
