@@ -16,24 +16,32 @@
     background-color: rgb(228, 225, 225);
 }
 
+h1 {
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: smaller;
+}
+
 button, input {
     border-radius: 5px;
     padding: 5px;
-    margin-top: 5px; 
+    margin-top: 10px; 
 }
 
 button {
    margin-bottom: 5px;
 }
 
-input {
+input, #todos {
     width: 70%;
 }
 
 .newTodo {
     display: flex;
     justify-content: space-between;
-    width: 10em;
+    width: 19em;
     padding: 5px;
     border-radius: 5px;
 }
@@ -55,3 +63,4 @@ input {
     font-weight: bold;
 }
 
+/* !! Fix the responsiveness of the app !! */

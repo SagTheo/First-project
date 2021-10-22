@@ -8,4 +8,8 @@ Difficulties encountered:
         -sorted out: had to include the for loop in the addEventListener on the button
     -getting the todo to be removed by clicking on the cross
         -sorted out: had to add an event listener on the cross that sets the attribute onclick to the todo
-                     (only when the pointer is on the cross), that calls a function that removes the todo when the cross is clicked 
+                     (only when the pointer is on the cross), that calls a function that removes the todo when the cross is clicked
+
+-getting the items to stay on the list after reloading the page
+
+-making the app responsive
