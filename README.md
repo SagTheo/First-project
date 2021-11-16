@@ -1,6 +1,6 @@
 This is my very first project
 
---> Make a french version of the app(toggle button?)
+--> Make a french version of the app - done
 
 Difficulties encountered:
 

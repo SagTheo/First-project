@@ -80,6 +80,10 @@ input {
     font-weight: bold;
 }
 
+a img {
+    width: 2rem;
+    float: right;
+}
 
 @media (max-width: 700px) {
     .container {
