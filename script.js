@@ -20,7 +20,7 @@ const onItem = (event) => {
     event.target.append(cross)
 
     cross.addEventListener('mouseenter', () => {
-        cross.title = 'Delete the todo'
+        cross.title = 'Delete todo'
         cross.parentNode.setAttribute('onclick', 'remove(this)')
     })
 
@@ -59,7 +59,7 @@ btnTodo.addEventListener('click', () => {
         } 
  
     } else {
-        alert('You must fill in the input field in order to add it to the list of to-dos.')
+        alert('You must fill in the input field in order to add it to the list of todos.')
     }
 })
 
